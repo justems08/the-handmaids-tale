@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Handmaid's Tale</title>
+
+    <!--Schrift Montserrat Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <!--Schrift Black Han Sans Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="stylesheetStory.css">
+    
+  </head>
+
+  <body>
+  <!--Header-->
+    <header class="site-header">
+      <nav class="site-nav">
+        <a href="#description">Description</a>
+        <a href="#summary">Summary</a>
+        <a href="#hierarchy">Hierarchy</a>
+        <a href="#character-cards">Character Cards</a>
+        <a href="#topic">Topic</a>
+        <a href="#day-in-gilead">A Day in Gilead</a>
+        <a href="#quote">Quote</a>
+      </nav>
+    </header>
+    
+  <!--Hero-Image-->
+    <div class="hero-image">
+      <div class="hero-text">
+         <h1>THE <br> HANDMAID'S <br> TALE</h1>
+      </div>
+    </div>
+  
+  <!--description-->
+    <section id="description" class="book-divider">
+    <div class="divider-line"></div>
+
+    <button class="book" id="bookToggle" aria-label="Buch öffnen">
+      <div class="book-pages">
+        <div class="book-page book-info">
+          <h3>The Handmaid's Tale</h3>
+          <p><strong>Autorin:</strong> Margaret Atwood</p>
+          <p><strong>Erscheinungsjahr:</strong> 1985</p>
+          <p><strong>Seitenzahl:</strong> ca. 300 Seiten</p>
+        </div>
+      </div>
+
+      <div class="book-cover">
+        <img src="HandmaidsTaleCover.jpg" alt="Cover von The Handmaid's Tale">
+      </div>
+    </button>
+
+    <div class="divider-line"></div>
+    </section>
+
+  <!--Summary-->
+    <div id="summary" class="carousel">
+
+        <div class="list">
+
+            <div class="item" style="background-image: url(HandmaidGilead.jpeg);">
+                <div class="content">
+                    <div class="title">01</div>
+                    <div class="name">Gilead and Its System</div>
+                    <div class="audio">
+                      <figure>
+                        <figcaption>Listen to the summary:</figcaption>
+                        <audio controls preload="metadata" src="AHandmaidInGilead.mp4"></audio>
+                      </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(FlashbackTheOldWorld.jpeg);">
+                
+                <div class="content">
+                    <div class="title">02</div>
+                    <div class="name">The Old World</div>
+                    <div class="audio">
+                      <figure>
+                        <figcaption>Listen to the summary:</figcaption>
+                        <audio controls preload="metadata" src="TheOldWorld.mp4"></audio>
+                      </figure>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(RedCenter.jpeg);">
+
+                <div class="content">
+                    <div class="title">03</div>
+                    <div class="name">Red Center</div>
+                    <div class="audio">
+                      <figure>
+                        <figcaption>Listen to the summary:</figcaption>
+                        <audio controls preload="metadata" src="summary-audio-3.mp3"></audio>
+                      </figure>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(Ceremony.jpeg);">
+                
+                <div class="content">
+                    <div class="title">04</div>
+                    <div class="name">Everyday Life</div>
+                    <div class="audio">
+                      <figure>
+                        <figcaption>Listen to the summary:</figcaption>
+                        <audio controls preload="metadata" src="DailyLife.mp4"></audio>
+                      </figure>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(Jezebel.jpeg);">
+                
+                <div class="content">
+                    <div class="title">05</div>
+                    <div class="name">The Unwoman</div>
+                    <div class="audio">
+                      <figure>
+                        <figcaption>Listen to the summary:</figcaption>
+                        <audio controls preload="metadata" src="summary-audio-5.mp3"></audio>
+                      </figure>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(NickOffred.jpeg);">
+                
+                <div class="content">
+                    <div class="title">06</div>
+                    <div class="name">Secret Affair</div>
+                    <div class="audio">
+                      <figure>
+                        <figcaption>Listen to the summary:</figcaption>
+                        <audio controls preload="metadata" src="SecretAffair.m4a.mp4"></audio>
+                      </figure>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item" style="background-image: url(OpenEnd.jpeg);">
+                
+                <div class="content">
+                    <div class="title">07</div>
+                    <div class="name">Open Ending</div>
+                    <div class="audio">
+                      <figure>
+                        <figcaption>Listen to the summary:</figcaption>
+                        <audio controls preload="metadata" src="OpenEnding.m4a.mp4"></audio>
+                      </figure>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--next prev button-->
+        <div class="arrows">
+            <button class="prev"><</button>
+            <button class="next">></button>
+        </div>
+
+
+        <!-- time running -->
+        <div class="timeRunning"></div>
+
+    </div>
+
+  <!--Hiercharchy--> 
+    <section id="hierarchy" class="hierarchy-section">
+      <h2>Hierarchy in Gilead</h2>
+
+    <div class="hierarchy-chart">
+      <div class="hierarchy-card top">
+        <h3>Commanders</h3>
+        <p>Highest-ranking men. They control politics, households, and the laws of Gilead.</p>
+      </div>
+
+      <div class="hierarchy-card">
+        <h3>Guardians / Eyes</h3>
+        <p>Men who serve as soldiers, guards, or secret police.</p>
+      </div>
+
+      <div class="hierarchy-card">
+        <h3>Wives</h3>
+        <p>Married to Commanders. They have status, but little real independence.</p>
+      </div>
+
+      <div class="hierarchy-card">
+        <h3>Aunts</h3>
+        <p>Women who train and control the Handmaids. They enforce Gilead's ideology.</p>
+      </div>
+
+      <div class="hierarchy-card">
+        <h3>Handmaids</h3>
+        <p>Fertile women forced to bear children for powerful families.</p>
+      </div>
+
+      <div class="hierarchy-card">
+        <h3>Marthas</h3>
+        <p>Domestic servants responsible for cooking, cleaning, and household work.</p>
+      </div>
+
+      <div class="hierarchy-card bottom">
+        <h3>Unwomen</h3>
+        <p>Women rejected by Gilead and sent away to the Colonies.</p>
+      </div>
+    </div>
+    </section>
+
+  <!--Character-Header-->
+    <div id="character-cards" class="character-divider">
+    <div class="character-marquee">
+      <div class="character-marquee-group">
+      <span>Characters</span>
+      <span>Characters</span>
+      <span>Characters</span>
+      <span>Characters</span>
+      <span>Characters</span>
+      <span>Characters</span>
+      <span>Characters</span>
+      <span>Characters</span>
+    </div>
+
+    <div class="character-marquee-group">
+      <span>Characters</span>
+      <span>Characters</span>
+      <span>Characters</span>
+      <span>Characters</span>
+      <span>Characters</span>
+      <span>Characters</span>
+      <span>Characters</span>
+      <span>Characters</span>
+    </div>
+    </div>
+    </div>
+
+  <!--Character-Cards-->
+    <div class="character-grid">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="offred.jpg" alt="Offred">
+          </div>
+          <div class="flip-card-back character-handmaid">
+            <h1>OFFRED</h1>
+            <p>HANDMAID</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="TheCommander.avif" alt="The Commander">
+          </div>
+          <div class="flip-card-back character-commander">
+            <h1>THE COMMANDER</h1>
+            <p>COMMANDER</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="SerenaJoy.jpg" alt="Serena Joy">
+          </div>
+          <div class="flip-card-back character-wife">
+            <h1>SERENA JOY</h1>
+            <p>WIFE</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="Moira.jpg" alt="Moira">
+          </div>
+          <div class="flip-card-back character-handmaid">
+            <h1>MOIRA</h1>
+            <p>HANDMAID</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="AuntLydia.jpg" alt="Aunt Lydia">
+          </div>
+          <div class="flip-card-back character-aunt">
+            <h1>AUNT LYDIA</h1>
+            <p>AUNT</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="nick.jpg" alt="Nick">
+          </div>
+          <div class="flip-card-back character-guardian">
+            <h1>NICK</h1>
+            <p>GUARDIAN</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="flipcard centered-card">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="Janine.jpg" alt="Janine">
+          </div>
+          <div class="flip-card-back character-handmaid">
+            <h1>JANINE</h1>
+            <p>HANDMAID</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  
+  <!--Topic-->
+   <section id="topic" class="topic-section">
+    <h2>Topics</h2>
+
+    <div class="topic-cloud" aria-label="Topics in The Handmaid's Tale">
+      <span class="topic-word topic-main">Feminism</span>
+      <span class="topic-word topic-main">Patriarchy</span>
+      <span class="topic-word topic-large">Power</span>
+      <span class="topic-word topic-large">Control</span>
+      <span class="topic-word topic-large">Oppression</span>
+      <span class="topic-word topic-medium">Identity</span>
+      <span class="topic-word topic-medium">Religion</span>
+      <span class="topic-word topic-medium">Rebellion</span>
+      <span class="topic-word topic-medium">Surveillance</span>
+      <span class="topic-word topic-small">Fear</span>
+      <span class="topic-word topic-small">Motherhood</span>
+      <span class="topic-word topic-small">Freedom</span>
+      <span class="topic-word topic-small">Language</span>
+      <span class="topic-word topic-small">Memory</span>
+      <span class="topic-word topic-small">Resistance</span>
+      <span class="topic-word topic-small">Gender Roles</span>
+    </div>
+
+    <div class="dystopian-divider">
+      <h3>Why Is It Dystopian?</h3>
+
+      <div class="dystopian-arguments">
+        <article class="dystopian-card">
+          <span>01</span>
+          <p>A near-collapse of human reproduction has created a world where healthy births are extremely rare. With only about one healthy birth in five and birth rates reaching a new low, the crisis becomes the foundation for Gilead's dystopian order.</p>
+        </article>
+
+        <article class="dystopian-card">
+          <span>02</span>
+          <p>Gilead is ruled by a totalitarian government that oppresses women and treats them as objects. Women are not allowed to read or own money, and the government uses the birth-rate crisis to justify its control and claim moral righteousness.</p>
+        </article>
+
+        <article class="dystopian-card">
+          <span>03</span>
+          <p>Not following the system can mean death. People who disagree with Gilead or break its rules may be hanged on the Wall, turning fear and public punishment into tools of control.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!--day-in-gilead-->
+  <section id="day-in-gilead" class="gilead-day-section">
+    <h2>A Day in Gilead</h2>
+
+    <div class="gilead-map">
+      <details class="map-stop stop-1">
+        <summary>1</summary>
+        <div class="map-audio-card">
+          <h3>The Commander's House</h3>
+          <audio controls preload="metadata" src="The Commander’s House - Morning.m4a.mp4"></audio>
+        </div>
+      </details>
+
+      <details class="map-stop stop-2">
+        <summary>2</summary>
+        <div class="map-audio-card">
+          <h3>The Market</h3>
+          <audio controls preload="metadata" src="TheMarket.mp4"></audio>
+        </div>
+      </details>
+
+      <details class="map-stop stop-3">
+        <summary>3</summary>
+        <div class="map-audio-card">
+          <h3>The Rachel and Leah Center</h3>
+          <audio controls preload="metadata" src="RachelLeahCenter.mp4"></audio>
+        </div>
+      </details>
+
+      <details class="map-stop stop-4">
+        <summary>4</summary>
+        <div class="map-audio-card">
+          <h3>Walking Path</h3>
+          <audio controls preload="metadata" src="Walk - Afternoon.m4a.mp4"></audio>
+        </div>
+      </details>
+
+      <details class="map-stop stop-5">
+        <summary>5</summary>
+        <div class="map-audio-card">
+          <h3>Visit</h3>
+          <audio controls preload="metadata" src="Visits.mp4"></audio>
+        </div>
+      </details>
+
+      <details class="map-stop stop-6">
+        <summary>6</summary>
+        <div class="map-audio-card">
+          <h3>Back Home</h3>
+          <audio controls preload="metadata" src="Back Home.m4a.mp4"></audio>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!--quote-->
+  <section id="quote" class="quote-divider">
+    <div class="quote-row quote-row-red">
+      <div class="quote-bubble">
+        <span class="quote-author">Comment by Ida</span>
+        <h3>Meaning in <em>The Handmaid's Tale</em></h3>
+        <p>The phrase "Nolite te bastardes carborundorum" is a secret message left by the previous Handmaid in Offred's room.</p>
+        <p>Although it is mock Latin and does not have a real meaning, it can be understood as "Don't let the bastards grind you down."</p>
+        <p>For Offred, the phrase becomes a symbol of hope and resistance. It reminds her that others have suffered before her and encourages her to keep her identity and dignity despite the oppression of Gilead.</p>
+        <p>The quote shows that even in a system designed to control people, small acts of resistance can help individuals stay strong and survive.</p>
+      </div>
+
+      <blockquote>Nolite te bastardes carborundorum</blockquote>
+
+      <div class="quote-bubble">
+        <span class="quote-author">Comment by Ida</span>
+        <h3>Meaning in Today's World</h3>
+        <p>Today, the quote can be seen as a message of resilience and self-respect.</p>
+        <p>It encourages people not to give up when facing unfair treatment, discrimination, or pressure from society. The phrase reminds us to stand up for our rights and beliefs, even when situations seem difficult.</p>
+        <p>For example, people who face bullying, inequality, or political oppression can see the quote as a reminder to stay strong and not let others take away their confidence or freedom.</p>
+        <p>It highlights the importance of courage and perseverance in challenging times.</p>
+      </div>
+    </div>
+
+    <div class="quote-row quote-row-light">
+      <div class="quote-bubble">
+        <h3>Meaning in <em>The Handmaid's Tale</em></h3>
+        <p>Placeholder for the explanation of this quote.</p>
+      </div>
+
+      <blockquote>Ignoring isn't the same as ignorance</blockquote>
+
+      <div class="quote-bubble">
+        <h3>Meaning in Today's World</h3>
+        <p>Placeholder for the explanation of this quote.</p>
+      </div>
+    </div>
+
+    <div class="quote-row quote-row-red">
+      <div class="quote-bubble">
+        <span class="quote-author">Comment by Emma</span>
+        <h3>Meaning in <em>The Handmaid's Tale</em></h3>
+        <p>The Commander uses this phrase to justify the creation of Gilead. In his view, "better" means solving the fertility crisis through forced surrogacy, reducing pollution, and establishing a strict social order. But "worse for some" reveals the cruelty behind that order: only certain people are granted safety, power, and rights.</p>
+        <p>The quote shows that the Commander understands that June's life as Offred is unbearable, but he treats her suffering as the cost of achieving what he sees as a greater social good.</p>
+      </div>
+
+      <blockquote>Better never means better for everyone</blockquote>
+
+      <div class="quote-bubble">
+        <span class="quote-author">Comment by Emma</span>
+        <h3>Meaning in Today's World</h3>
+        <p>Atwood uses this quote as a warning about problems that still exist today. It shows how political, technological, and economic progress is often distributed unevenly.</p>
+        <p>For example, AI and new technologies can increase efficiency and corporate profit, while some workers face more pressure, fewer protections, and less control over their labor. The quote warns us not to accept progress blindly, but to ask who benefits, who pays the price, and whose rights are being sacrificed.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+    <script src="app.js"></script>
+
+
+  </body>
+</html>
